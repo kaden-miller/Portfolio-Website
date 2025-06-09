@@ -9,15 +9,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
-import {
-  Github,
-  Linkedin,
-  Mail,
-  ExternalLink,
-  ArrowRight,
-  Link,
-} from "lucide-react";
+import { Github, Linkedin, Mail, ExternalLink, ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -33,14 +25,15 @@ export default function Home() {
             </h2>
 
             <p className="text-m md:text-l  dark:text-gray-300 mb-8 max-w-2xl mx-auto">
-              Hello! I'm a self taught web developer with 5+ years of experience
-              building websites. I've primarily been involved with builing
-              Wordpress websites and working in HTML, PHP, Javascript, and CSS.
-              I'm passoniate about bringing ideas from concept, to deployment,
-              and helping improve businesses systems and processes. Being self
-              taught, my problem solving skills are one of my top assets. I'm a
-              quick learner and can lead my own projects, finding solutions to
-              issues that arise during the development process.
+              Hello! I&apos;m a self taught web developer with 5+ years of
+              experience building websites. I&apos;ve primarily been involved
+              with builing Wordpress websites and working in HTML, PHP,
+              Javascript, and CSS. I&apos;m passoniate about bringing ideas from
+              concept, to deployment, and helping improve businesses systems and
+              processes. Being self taught, my problem solving skills are one of
+              my top assets. I&apos;m a quick learner and can lead my own
+              projects, finding solutions to issues that arise during the
+              development process.
             </p>
             <div className="flex flex-row gap-8">
               <div className="space-x-6">
@@ -198,10 +191,10 @@ export default function Home() {
       <section id="contact" className="container mx-auto px-4 py-20">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-8">
-            Let's Work Together
+            Let&apos;s Work Together
           </h2>
           <p className="text-xl  dark:text-gray-300 mb-12">
-            I'm always open to discussing new opportunities and interesting
+            I&apos;m always open to discussing new opportunities and interesting
             projects
           </p>
 
