@@ -52,7 +52,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <Button variant="ghost" size="icon">
-                    <Linkedin className="h-5 w-5" />
+                    <Mail className="h-5 w-5" />
                   </Button>
                 </a>
                 <a
@@ -61,7 +61,7 @@ export default function Home() {
                   target="_blank"
                 >
                   <Button variant="ghost" size="icon">
-                    <Mail className="h-5 w-5" />
+                    <Linkedin className="h-5 w-5" />
                   </Button>
                 </a>
               </div>
@@ -83,7 +83,7 @@ export default function Home() {
 
           <div className="mb-8 col-span-2">
             <Image
-              src="/kaden-headshot.jpg" // Add your photo to public folder
+              src="/kaden-headshot.jpg"
               alt="Kaden Miller"
               width={300}
               height={300}
@@ -104,7 +104,7 @@ export default function Home() {
               {
                 title: "Business Website",
                 description:
-                  "E-commerce website for local boat dealer. Built in Wordpress",
+                  "E-commerce website for a local boat dealer. Built in Wordpress.",
                 image: "/aea-site.png",
                 live: "https://allelementsautoandmarine.com/",
               },
@@ -123,6 +123,48 @@ export default function Home() {
                 image: "/vbs-player.png",
                 github: "https://github.com/kaden-miller/vbs_song_player",
                 live: "https://vbs.coding.pizza/",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Modern, dark themed website for a hair restoration company. Wordpress.",
+                image: "/hbr-site-2.png",
+                live: "https://hairbyrobotics.com/",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Clean and elegant website for a skin care company. Wordpress.",
+                image: "/ultra-site-2.png",
+                live: "https://ultraskinandhair.com",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Brochure website for a medical document service provider. Wordpress.",
+                image: "/mds-site.png",
+                live: "https://mdsofkansas.com",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Brochure website for a local electrician. Wordpress.",
+                image: "/gsok-site.png",
+                live: "https://gideonssourceofkansas.com",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Website to showcase homes for sale and community information. Wordpress.",
+                image: "/mfh-site.png",
+                live: "https://millerfamilyhomes.com",
+              },
+              {
+                title: "Business Website",
+                description:
+                  "Brochure website for a metal fabricator located in Burton, KS. Wordpress.",
+                image: "/tls-site.png",
+                live: "https://tlsteelllc.com/",
               },
             ].map((project, index) => (
               <Card
