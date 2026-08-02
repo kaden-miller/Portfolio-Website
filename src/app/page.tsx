@@ -12,6 +12,8 @@ import {
 import { Github, Linkedin, Mail, ExternalLink, ArrowRight } from "lucide-react";
 
 export default function Home() {
+  const currentYear = new Date().getFullYear();
+
   return (
     <div className="min-h-screen">
       <section className="container mx-auto px-4 py-40 text-center">
@@ -285,7 +287,7 @@ export default function Home() {
       </section>
       <footer className=" text-white py-8">
         <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2025 Kaden Miller. All rights reserved.</p>
+          <p>&copy; {currentYear} Kaden Miller. All rights reserved.</p>
         </div>
       </footer>
     </div>
